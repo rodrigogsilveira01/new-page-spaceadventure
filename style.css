@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Honk', system-ui;
+}
+
+
+video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+header {
+    position: fixed;
+    top: 20px;
+    left: 560px;
+    width: auto;
+}
+
+section {
+    width: 600px;
+    height: 400px;
+    position: fixed;
+    top: 135px;
+    left: 40px;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+p {
+
+    font-family: 'Kanit', sans-serif;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.button-menu {
+
+    font-size: 25px;
+    justify-content: center;
+    padding: 10px;
+    margin: 0 50px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
